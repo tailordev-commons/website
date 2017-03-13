@@ -1,6 +1,8 @@
 # The UNIX shell
 
+{% hint style='info' %}
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
+{% endhint %}
 
 ## Introduction
 
