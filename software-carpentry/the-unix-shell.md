@@ -345,21 +345,21 @@ $ sort -n lengths.txt
 Sorting without `-n` gives different results depending on the Operating System, the locale, and maybe other things too. On some system, running `sort` without `-n` can give the expected result for sorting things numerically, but you should always specify the `-n` option if you intend to sort things numerically.
 {% endhint %}
 
-:fa-warning: it does not change the file
+It does not change the file:
 
 ```
 $ sort -n lengths.txt > sorted-lengths.txt
 ```
 
-:fa-info-circle: `head` for displaying the beginning (head) of the file (`-n 1` == first line)
+`head` for displaying the beginning (head) of the file (`-n 1` = first line):
 
 ```
 $ head -n 1 sorted-lengths.txt
 ```
 
-:fa-warning: Redirecting to the same file is a very bad idea!
+Redirecting to the same file is a very bad idea!
 
-:fa-info-circle: too many intermediate files, solution is **pipe**
+Too many intermediate files, solution is **pipe**:
 
 ```
 $ sort -n lengths.txt | head -n 1
@@ -369,36 +369,33 @@ $ wc -l *.pdb | sort -n | head -n 1
 # head of sort of line count of *.pdb
 ```
 
+Things worth explaining:
+
 - Process
 - Standard input
 - Standard output
 
 ![](https://github.com/swcarpentry/shell-novice/raw/gh-pages/fig/redirects-and-pipes.png)
 
-Sucess of Unix: creation of lots of simple tools that each do one job well and that work well with each other --> pipe and filter
+Sucess of Unix: creation of lots of simple tools that each do one job well and that work well with each other --> pipe and filter.
 
-> Exercise: Checking files
-> Nelle has run her samples through the assay machines and created 1520 files in the `north-pacific-gyre/2012-07-03` directory described earlier
-> She asked you to check the number of lines is the same in all files 
-> as there is supposed to be 300 lines per file
+**Exercise ideas:**
+
+- Nelle has run her samples through the assay machines and created 1520 files in the `north-pacific-gyre/2012-07-03` directory described earlier. She ask you to check that the number of lines is the same in all files as there should be 300 lines per file.
 
 ```
 $ ls *Z.txt
 ```
 
-> Exercises
+### Loops
 
----
-
-# Loops
-
-Loops: key productivity improvements through automation --> repetition of commands
+Loops: key productivity improvements through automation --> repetition of commands.
 
 ```
 $ cd ../creatures
 ```
 
-Only 2 files here, but the principe can be applied to many more files at once
+Only 2 files here, but the principe can be applied to many more files at once:
 
 ```
 $ cp *.dat original-*.dat # can not be used
@@ -412,10 +409,12 @@ $ for filename in basilisk.dat unicorn.dat
 > done
 ```
 
-- Follow the prompt
-- Same symbols, different meanings: `>` and `$`
-	- shell printing: typing expecting
-    - you typing, shell redirection or variable
+Follow the prompt!
+
+Same symbols, different meanings: `>` and `$`:
+
+- shell printing: typing expecting
+- you typing, shell redirection or variable
 
 ```
 $ for x in basilisk.dat unicorn.dat # name of variable
@@ -423,6 +422,11 @@ $ for x in basilisk.dat unicorn.dat # name of variable
 >  head -n 3 $x
 > done
 ```
+
+{% hint style='danger' %}
+This is a Bash `for` loop. It will not work as is on ZSH for instance (which is another shell).
+{% endhint %}
+
 ```
 $ for filename in *.dat
 > do
@@ -431,7 +435,7 @@ $ for filename in *.dat
 > done
 ```
 
-Avoid whitespaces
+Avoid whitespaces:
 
 ```
 $ for filename in *.dat
@@ -440,24 +444,17 @@ $ for filename in *.dat
 > done
 ```
 
-> Exercise: Processing files
-> 1. Check she select the right files: the onles whose names end in 'A' or 'B', rather than 'Z'
-> 2. Check what happen if you prefix each input file's name with "stats" (for the output of `goostats` program)
-> 3. Apply `bash goostats $input $output` to each file
-> 4. Apply `bash goostats` after adding an `echo` to check on which file it is running
+** Exercise ideas:**
 
-- Up-arrow
-- Ctrl-C
-- Ctrl-A and Ctrl-E
-- Ctrl-R
-- `!!`
-- `!$`
+- Processing files
+  1. Check she select the right files: the onles whose names end in 'A' or 'B', rather than 'Z'
+  2. Check what happen if you prefix each input file's name with "stats" (for the output of `goostats` program)
+  3. Apply `bash goostats $input $output` to each file
+  4. Apply `bash goostats` after adding an `echo` to check on which file it is running
 
-> Exercises
+### Shell scripts
 
-# Shell scripts
-
-Shell scripts: small programs
+Shell scripts are small programs.
 
 ```
 $ cd ../molecules
@@ -465,18 +462,21 @@ $ nano middle.sh
 	head -n 15 octane.pdb | tail -n 5
 $ bash middle.sh
 ```
+
 ```
 $ nano middle.sh
 	head -n 15 "$1" | tail -n 5
 $ bash middle.sh octane.pdb
 $ bash middle.sh pentane.pdb
 ```
+
 ```
 $ nano middle.sh
 	head -n "$2" "$1" | tail -n "$3"
 $ bash middle.sh pentane.pdb 15 5
 $ bash middle.sh pentane.pdb 20 5
 ```
+
 ```
 $ nano middle.sh
 	# Select lines from the middle of a file
@@ -487,6 +487,7 @@ $ nano middle.sh
 ```
 $ wc -l *.pdf | sort -n
 ```
+
 ```
 $ nano sorted.sh
 	# Sort filenames by their length
@@ -494,60 +495,58 @@ $ nano sorted.sh
     wc -l "$@" | sort -n
 $ bash sorted.sh *.pdb ../creatures/*.dat
 ```
+
 ```
 $ history | tail -n 5 > redo-figure-3.sh
 ```
 
-> Exercise: Creating a script for Nelle's pipeline
-> An off-hand comment from her supervisor has made Nelle realize that she should have provided a couple of extra parameters to goostats when she processed her files. This might have been a disaster if she had done all the analysis by hand, but thanks to for loops, it will only take a couple of hours to re-do.
+### Finding things
 
-> Exercises
-
-# Finding things
-
-`grep`: "global/regular expression/print" --> find lines in files
+`grep` stands for Global/Regular Expression/Print" --> find lines in files.
 
 ```
 $ cd writing
 $ cat haiku.txt
 ```
+
 ```
 $ grep not haiku.txt
 $ grep The haiku.txt # in larger words: Thesis
 $ grep -w The haiku.txt
 $ grep -w "is not" haiku.txt
 ```
+
 ```
 $ grep -n "it" haiku.txt
 ```
+
 ```
 $ grep -n -w "the" haiku.txt
 ```
+
 ```
 $ grep -n -w -i "the" haiku.txt #case insensitive
 $ grep -n -w -v "the" haiku.txt #inverted search
 $ grep --help
 ```
 
-Wildcards
-
-`find`: find files
+`find` is for finding files:
 
 ```
 $ find .
 ```
+
 ```
 $ find . -type d
 $ find . -type f
 ```
+
 ```
 $ find . -name *.txt # run: find . -name haiku.txt
 $ find . -name '*.txt'
 ```
+
 ```
 $ wc -l $(find . -name '*.txt')
 $ grep "FE" $(find .. -name '*.pdb')
 ```
-
-> Exercises
-
