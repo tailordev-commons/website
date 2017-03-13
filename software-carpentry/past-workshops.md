@@ -16,7 +16,7 @@ Social event
 
 Python \o/
 
-### Links
+#### Links
 
 - Eventbrite page: http://sc-workshop-freiburg-1.eventbrite.fr
 - Website: https://bebatut-edu.github.io/2017-03-09-freiburg/
