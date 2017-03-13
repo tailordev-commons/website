@@ -41,7 +41,7 @@ $ pwd # print working directory
 
 **Action:** draw the filesytem organization (`/` for root dir, inverted tree, different on Windows, file extensions are a convention)
 
-**Action:** open Finder to see the files
+**Action:** open Finder to see the files.
 
 ```
 $ ls
@@ -79,7 +79,7 @@ creatures/          molecules/          notes.txt           solar.pdf
 data/               north-pacific-gyre/ pizza.cfg           writing/
 ```
 
-:fa-info-circle: Navigating with `cd`
+Navigating with `cd`:
 
 ```
 $ cd Desktop
@@ -88,7 +88,8 @@ $ cd data
 $ pwd
 $ ls
 ```
-:fa-info-circle: Error when not found
+
+Error when not found:
 
 ```
 $ cd data-shell
