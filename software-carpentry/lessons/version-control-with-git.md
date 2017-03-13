@@ -11,7 +11,7 @@ https://try.github.io is a great way to learn Git and GitHub. We usually use it 
 ## Instructor notes
 
 {% hint style='working' %}
-These notes are mainly written for the instructors. Yet, it contains most (if not all) commands and important points taught during a workshop.
+These notes are mainly written for the instructors. Yet, they contain most (if not all) commands and important points taught during a workshop, which may be interesting if you want to remember how much you learnt during a workshop.
 {% endhint %}
 
 The big picture:
