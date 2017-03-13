@@ -159,13 +159,14 @@ Use the commit number that identifies the state of the repository before the cha
 - Recovering Older Versions of a File
 - Understanding Workflow and History
 
-# Ignoring things
+### Ignoring things
 
 ```
 $ mkdir results
 $ touch a.dat b.dat c.dat results/a.out results/b.out
 $ git status
 ```
+
 ```
 $ nano .gitignore
 	*.dat
@@ -175,51 +176,53 @@ $ git status
 $ git add .gitignore
 $ git commit -m "Add the ignore file"
 ```
+
 ```
 $ git add a.dat
 $ git status --ignored
 ```
 
-Possible to use any regular expression and wildcards
+It is possible to use wildcards.
 
-> Exercises
-> - Ignoring nested files
-> - Including Specific Files
-> - Ignoring all data Files in a Directory
+**Exercise ideas:**
 
----
+- Ignoring nested files
+- Including Specific Files
+- Ignoring all data Files in a Directory
 
-# Remotes in GitHub
+### Remotes in GitHub
 
-Only thing missing: copy changes from one repository to another
+Only thing missing: copy changes from one repository to another.
 
-Hosting services: GitHub, BitBucket, GitLab
+Hosting services: GitHub, BitBucket, GitLab, etc.
 
-:fa-warning: Make clear that Git and GitHub are not the same thing
+Make clear that Git and GitHub are not the same thing.
 
-:fa-edit: Create a repo on GitHub, explain everyting
+**Action:** create a repo on GitHub, explain everyting.
 
-:fa-info-circle: setup a remote:
+Setup a remote:
 
 ```
-$ git remote add origin https://github.com/bebatut/planets.git
+$ git remote add origin https://github.com/<username>/planets.git
 $ git remote -v
 $ git push origin master
 ```
 
-:fa-info-circle: fetch + merge changes:
+Fetch + merge changes:
 
 ```
 $ git pull origin master
 ```
 
-:fa-warning: Push vs Commit
+Be sure to explain the difference between Push and Commit.
 
----
+### Collaborating
 
-# Pushing to `master` is a privilege
+Pushing to `master` is a privilege.
 
-## Branches!
+Branches to the rescue!
+
+**Action:**
 
 1. create a branch (and switch)
 2. show in Finder the state of the repo
@@ -231,6 +234,3 @@ $ git pull origin master
 8. merge PR
 9. retrieve branch
 10. delete branch
-
----
-
