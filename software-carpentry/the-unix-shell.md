@@ -173,7 +173,7 @@ $ mkdir thesis
 $ ls -F
 ```
 
-**Action:** how in the Finder
+**Action:** show in the Finder
 
 ### Good names for files and directories
 
@@ -200,11 +200,11 @@ The _Git Bash_ users will not have `nano` installed but rather `vi`, which is co
 $ nano draft.txt
 ```
 
-:fa-info-circle: Control == Ctrl == `^` key (hence the info in `nano`)
+Explain that Control = Ctrl = `^` key (hence the info in `nano`).
 
-:fa-info-circle: write some content, then save and quit
+**Action:** write some content, then save and quit.
 
-:fa-bullhorn: where is your file? how to check?
+**Question:** where is your file? how to check?
 
 ```
 $ ls
@@ -217,7 +217,7 @@ $ rm draft.txt
 $ ls
 ```
 
-:fa-info-circle: try to remove a directory not empty by recreating the file first, then go to parent and `rm`
+**Action:** try to remove a directory not empty by recreating the file first, then go to parent and `rm`.
 
 ```
 $ pwd
@@ -227,15 +227,13 @@ $ cd ..
 $ rm thesis
 ```
 
-:fa-info-circle: recursively removing files:
-
-:fa-warning: that is dangerous, use interactive mode `-i`
+Talk about recursively removing files, but tell the audience that it is dangerous. They should use interactive mode `-i`.
 
 ```
 $ rm -r thesis
 ```
 
-:fa-info-circle: create `draft.txt`
+Create `draft.txt`:
 
 ```
 $ pwd
@@ -244,43 +242,43 @@ $ nano thesis/draft.txt
 $ ls thesis
 ```
 
-:fa-info-circle: renaming a file by **moving** it
+Renaming a file by **moving** it:
 
 ```
 $ mv thesis/draft.txt thesis/quotes.txt
 $ ls thesis
 ```
 
-:fa-info-circle: `mv` is for files and directories (no `mvdir` for instance)
+`mv` is for files and directories (no `mvdir` for instance).
 
-:fa-info-circle: we can move files to directories too, but it does not transform a file into a directory, it moves the file somewhere else (physically)
+We can move files to directories too, but it does not transform a file into a directory, it moves the file somewhere else (physically):
 
 ```
 $ mv thesis/quotes.txt .
 $ ls thesis
 ```
 
-:fa-info-circle: see if the file is present
+See if the file is present:
 
 ```
 $ ls quotes.txt
 ```
 
-:fa-info-circle: copy files with `cp`
+Copy files with `cp`:
 
 ```
 $ cp quotes.txt thesis/quotations.txt
 $ ls quotes.txt thesis/quotations.txt
 ```
 
-:fa-info-circle: error expected if any of the files given to `ls` does not exist
+Error expected if any of the files given to `ls` does not exist:
 
 ```
 $ rm quotes.txt
 $ ls quotes.txt thesis/quotations.txt
 ```
 
-:fa-info-circle: create a file with `touch`
+Create a file with `touch`:
 
 ```
 $ touch new-file
@@ -288,13 +286,11 @@ $ ls
 $ nano new-file
 ```
 
----
+### Pipes and Filters
 
-# Pipes and Filters
+`wc` stands for word count.
 
-:fa-info-circle: `wc` stands for word count
-
-:fa-info-circle: `wc -l` for counting lines
+`wc -l` for counting lines.
 
 ```
 $ ls molecules
@@ -302,11 +298,9 @@ $ cd molecules
 $ wc *.pdb
 ```
 
-:fa-info-circle: wildcards `*` (zero or more characters) and `?` (a single character, not really used)
+Wildcards `*` (zero or more characters) and `?` (a single character, not really used).
 
-> Exercise: Using wilcards
-
---
+**Exercise ideas:** use wilcards
 
 ```
 $ wc -l *.pdb
@@ -321,9 +315,9 @@ $ wc -l *.pdb
 
 Which of these files is shortest? It’s an easy question to answer when there are only six files, but what if there were 6000?
 
-:fa-info-circle: redirection with `>` (which also creates the file if it does not already exist)
+Redirection with `>` (which also creates the file if it does not already exist).
 
-:fa-warning: it **overwrites** the file if it exists
+It **overwrites** the file if it exists and may lead to altered data.
 
 ```
 $ wc -l *.pdb > lengths.txt
@@ -333,19 +327,23 @@ $ wc -l *.pdb > lengths.txt
 $ ls lengths.txt
 ```
 
-:fa-info-circle: `cat` for displaying the content of the file (concatenate)
+`cat` for displaying the content of the file (concatenate):
 
 ```
 $ cat lengths.txt
 ```
 
-:fa-info-circle: `sort` for sorting things
+`sort` for sorting things (alphabetically).
 
-:fa-info-circle: `sort -n` means the sort is numerical instead of alphabetical
+`sort -n` means the sort is numerical instead of alphabetical:
 
 ```
 $ sort -n lengths.txt
 ```
+
+{% hint style='danger' %}
+Sorting without `-n` gives different results depending on the Operating System, the locale, and maybe other things too. On some system, running `sort` without `-n` can give the expected result for sorting things numerically, but you should always specify the `-n` option if you intend to sort things numerically.
+{% endhint %}
 
 :fa-warning: it does not change the file
 
