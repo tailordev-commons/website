@@ -4,8 +4,6 @@ On this page, you will find all the Software Carpentry workshops we (TailorDev C
 
 ## 2017-03-09 - Freiburg, Germany
 
-### Agenda
-
 **Day 1**
 
 The UNIX Shell and Git (cf. [the UNIX shell](/software-carpentry/lessons/the-unix-shell.md) and [Version Control with Git](/software-carpentry/lessons/version-control-with-git.md) pages)
