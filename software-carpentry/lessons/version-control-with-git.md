@@ -14,6 +14,8 @@ https://try.github.io is a great way to learn Git and GitHub. We usually use it 
 These notes are mainly written for the instructors. Yet, they contain most (if not all) commands and important points taught during a workshop, which may be interesting if you want to remember how much you learnt during a workshop.
 {% endhint %}
 
+We tend to follow the [Software Carpentry schedule](https://swcarpentry.github.io/git-novice/) except for explaining how to collaborate with Git(Hub). We rather use our experience in the Open Source community and how we use GitHub on a daily basis at TailorDev to give a better overview of how to efficiently collaborate with Git(Hub).
+
 The big picture:
 
 - Nothing that is committed is lost
