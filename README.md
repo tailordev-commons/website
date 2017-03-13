@@ -4,4 +4,4 @@ TailorDev Commons is the charity part of [TailorDev](https://tailordev.fr/), ded
 
 We are committed to performing just like if it would have been a paid contract: same energy, same motivation and same "professionalism"!
 
-For more information, you can read the announcement blog post on the TailorDev website: https://tailordev.fr/blog/2017/02/15/tailordev-commons/.
+For more information about our motivations behind this initiative, you can read the announcement blog post on the TailorDev website: https://tailordev.fr/blog/2017/02/15/tailordev-commons/.
