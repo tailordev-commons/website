@@ -6,3 +6,5 @@
 
 ## Software Carpentry
 
+* [The UNIX shell](software-carpentry/the-unix-shell.md)
+
