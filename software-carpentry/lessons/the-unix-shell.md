@@ -29,6 +29,10 @@ You can find the Software Carpentry lesson at: https://swcarpentry.github.io/she
 
 ## Instructor notes
 
+{% hint style='working' %}
+These notes are mainly written for the instructors. Yet, they contain most (if not all) commands and important points taught during a workshop, which may be interesting if you want to remember how much you learnt during a workshop.
+{% endhint %}
+
 We tend to follow the [Software Carpentry schedule](https://swcarpentry.github.io/shell-novice/), but if time is lacking, we skip the loops (especially if the second day is dedicated to Python).
 
 ### Navigating Files and Directories
