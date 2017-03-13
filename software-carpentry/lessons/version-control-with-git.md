@@ -4,6 +4,10 @@
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/git-novice/.
 {% endhint %}
 
+## Try Git
+
+https://try.github.io is a great way to learn Git and GitHub. We usually use it as a quick "test" on the second day of a 2-day workshop.
+
 ## Instructor notes
 
 The big picture:
