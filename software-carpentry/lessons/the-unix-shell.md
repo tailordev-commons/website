@@ -29,6 +29,8 @@ You can find the Software Carpentry lesson at: https://swcarpentry.github.io/she
 
 ## Instructor notes
 
+We tend to follow the [Software Carpentry schedule](https://swcarpentry.github.io/shell-novice/), but if time is lacking, we skip the loops (especially if the second day is dedicated to Python).
+
 ### Navigating Files and Directories
 
 First, talk about the prompt (`$` / PS1)
