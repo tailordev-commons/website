@@ -6,9 +6,13 @@ You can find the Software Carpentry lesson at: https://swcarpentry.github.io/git
 
 ## Try Git
 
-https://try.github.io is a great way to learn Git and GitHub. We usually use it as a quick "test" on the second day of a 2-day workshop.
+https://try.github.io is a great way to learn Git and GitHub. We usually use it as a quick "test" on the second day of a 2-day workshop. It does not replace the Software Carpentry lesson.
 
 ## Instructor notes
+
+{% hint style='working' %}
+These notes are mainly written for the instructors. Yet, it contains most (if not all) commands and important points taught during a workshop.
+{% endhint %}
 
 The big picture:
 
