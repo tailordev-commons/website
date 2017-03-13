@@ -1,3 +1,8 @@
 {
-    "plugins": ["hints"]
+    "plugins": ["hints"],
+    "pluginsConfig": {
+        "hints": {
+            "working": "fa fa-info-circle"
+        }
+    }
 }
