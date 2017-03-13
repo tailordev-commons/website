@@ -12,3 +12,7 @@
 * [Past workshops](software-carpentry/past-workshops.md)
   * [2017-03 – Freiburg, Germany](software-carpentry/past-workshops/2017-03-freiburg-germany.md)
 
+## Conferences
+
+* [Past talks](conferences/past-talks.md)
+
