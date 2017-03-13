@@ -57,7 +57,7 @@ Desktop/      Downloads/    Movies/       Pictures/
 
 **Question:** how to get help?
 
-{% hint style='warning' %}
+{% hint style='danger' %}
 The `--help` option does not always work depending on the OS. It may work with `-h` or `man ls`.
 {% endhint %}
 
