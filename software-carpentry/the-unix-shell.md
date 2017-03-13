@@ -57,10 +57,6 @@ Desktop/      Downloads/    Movies/       Pictures/
 
 **Question:** how to get help?
 
-{% hint style='danger' %}
-The `--help` option does not always work depending on the OS. It may work with `-h` or `man ls`.
-{% endhint %}
-
 ```
 $ ls --help
 Usage: ls [OPTION]... [FILE]...
@@ -69,6 +65,10 @@ Usage: ls [OPTION]... [FILE]...
 ```
 $ man ls
 ```
+
+{% hint style='danger' %}
+The `--help` option does not always work depending on the OS. It may work with `-h` or `man ls`.
+{% endhint %}
 
 ```
 $ ls Desktop
