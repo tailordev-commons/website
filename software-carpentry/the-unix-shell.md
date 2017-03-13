@@ -100,15 +100,14 @@ $ cd data-shell
 -bash: cd: data-shell: No such file or directory
 ```
 
-:fa-info-circle: explanation about `..` and  `.`
+Explain special directories like `..` and  `.`
 
 ```
 $ cd ..
 $ pwd
 ```
 
-:fa-info-circle: `-a` is for "show all"
-
+Option `-a` is for "show all":
 
 ```
 $ ls -F -a
@@ -116,9 +115,9 @@ amino-acids.txt   elements/     pdb/	        salmon.txt
 animals.txt       morse.txt     planets.txt     sunspot.txt
 ```
 
-:fa-info-circle: talk about **hidden files**
+Talk about **hidden files**
 
-**Recap'**
+**Action:** recap commands, options, and help.
 
 ```
 $ ls
@@ -126,26 +125,26 @@ $ cd
 $ pwd
 ```
 
-:fa-info-circle: go directly where you want
+Go directly where you want:
 
 ```
 $ cd Desktop/data-shell/data
 ```
 
-:fa-info-circle: talk about relative/absolute paths:
+Talk about relative/absolute paths:
 
 ```
 $ pwd
 $ cd /Users/bebatut/Desktop/data-shell
 ```
 
-:fa-info-circle: 2 more shortcuts: `~` and `-`
+Explain the following shortcuts: `~` and `-`.
 
-:fa-edit: give link to zip file from a scientist called Nelle https://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip
+**Action:** give link to zip file from a scientist called Nelle: [shell-novice-data.zip](/software-carpentry/data/shell-novice-data.zip).
 
 ### Organizing files
 
-:fa-info-circle: explore the data
+Explore the data.
 
 Knowing just this much about files and directories, Nelle is ready to organize the files that the protein assay machine will create.
 
@@ -154,13 +153,11 @@ Knowing just this much about files and directories, Nelle is ready to organize t
 
 Each of her physical samples is labelled according to her lab’s convention with a unique ten-character ID, such as “NENE01729A”. This is what she used in her collection log to record the location, time, depth, and other characteristics of the sample, so she decides to use it as part of each data file’s name. Since the assay machine’s output is plain text, she will call her files `NENE01729A.txt`, `NENE01812A.txt`, and so on. All 1520 files will go into the same directory.
 
-:fa-bullhorn: ask questions like "is it a relative/absolute path?"
+**Question:** is it a relative/absolute path? Think about other challenge questions.
 
-:fa-info-circle: talk about tab **completion**
+Talk about tab **completion**.
 
----
-
-# Working with files and directories
+### Working with files and directories
 
 How to create files and directories?
 
@@ -169,29 +166,35 @@ $ pwd # ensure we are in data-shell/
 $ ls -F
 ```
 
-:fa-bullhorn: how to create a directory? we want to "make a directory"
+**Question:** how to create a directory? we want to "make a directory".
 
 ```
 $ mkdir thesis
 $ ls -F
 ```
 
-:fa-edit: show in the Finder
+**Action:** how in the Finder
 
 ### Good names for files and directories
 
+Common rules:
+
 - Don't use whitespaces
 - Don't begin the name with `-` (dash)
-- Stick with letters, numbers, `.` (period), `-` (dash) and `_` (underscore).
+- Stick with letters, numbers, `.` (period), `-` (dash) and `_` (underscore)
 
 ```
 $ ls -F thesis # empty, let's create a file!
 $ cd thesis
 ```
 
-:fa-info-circle: `nano` text only editor
+Present the `nano` text only editor.
 
-:fa-bullhorn: what do you use to write a paper? or thesis?
+{% hint style='danger' %}
+The _Git Bash_ users will not have `nano` installed but rather `vi`, which is complicated to use since it does not give any information on how to use it.
+{% endhint %}
+
+**Question:** what do you use to write a paper? or thesis?
 
 ```
 $ nano draft.txt
