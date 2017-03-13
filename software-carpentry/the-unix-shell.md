@@ -67,7 +67,7 @@ $ man ls
 ```
 
 {% hint style='danger' %}
-The `--help` option does not always work depending on the OS. It may work with `-h` or `man ls`.
+The `--help` option does not always work depending on the Operating System. It may work with `-h` or `man ls`.
 {% endhint %}
 
 ```
