@@ -4,18 +4,6 @@
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
 {% endhint %}
 
-{% hint style='tip' %}
-You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
-{% endhint %}
-
-{% hint style='danger' %}
-You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
-{% endhint %}
-
-{% hint style='working' %}
-You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
-{% endhint %}
-
 ## Introduction
 
 ### UNIX?
