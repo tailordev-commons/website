@@ -20,6 +20,11 @@ This lesson aims at plotting figures with [Matplotlib](http://matplotlib.org/) a
 
 You can download the Jupyter Notebook for this lesson: [python-102.ipynb](/software-carpentry/data/python-102.ipynb).
 
+
+## Jupyter Notebook
+
+
+
 ## Instructor notes
 
 {% hint style='working' %}
