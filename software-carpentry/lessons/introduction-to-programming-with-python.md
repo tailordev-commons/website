@@ -23,6 +23,13 @@ You can download the Jupyter Notebook for this lesson: [python-102.ipynb](/softw
 
 ## Jupyter Notebook
 
+The Jupyter Notebook (formerly known as the IPython Notebook) is an interactive computational environment, in which you can combine code execution, rich text, mathematics, plots and rich media.
+
+{% hint style='tip' %}
+There is a public demo at: http://try.jupyter.org/. Yet, it is not always up and you should not use it during a workshop. It is better to setup a dedicated Jupyter instance.
+{% endhint %}
+
+![](/software-carpentry/assets/tryjupyter.png)
 
 
 ## Instructor notes
