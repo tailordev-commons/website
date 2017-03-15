@@ -69,6 +69,8 @@ By default, the type of cell is "code" but you can change it to "Markdown" if yo
 
 ![](/software-carpentry/assets/jupyter_markdown.png)
 
+**Tip:** in a "code cell", it is possible to run Bash commands by prepending the command with an exclamation mark, _e.g._, `!ls`.
+
 That's it!
 
 ## Instructor notes
