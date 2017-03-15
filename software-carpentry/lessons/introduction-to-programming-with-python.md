@@ -14,6 +14,12 @@ This lesson is an introduction to programming and the Python programming languag
 
 You can download the Jupyter Notebook for this lesson: [python-101](/software-carpentry/data/python-101.ipynb).
 
+## Python 102
+
+This lesson aims at plotting figures with [Matplotlib](http://matplotlib.org/) and using [NumPy](http://www.numpy.org/), the fundamental package for scientific computing with Python. This lesson has been created by [Björn Grüning](https://twitter.com/bjoerngruening).
+
+You can download the Jupyter Notebook for this lesson: [python-102](/software-carpentry/data/python-102.ipynb).
+
 ## Instructor notes
 
 {% hint style='working' %}
