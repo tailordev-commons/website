@@ -1,4 +1,4 @@
-# ![](https://commons.tailordev.fr/assets/TailorDev-commons-logo.png)
+![](/assets/TailorDev-commons-logo.png)
 
 Since January 2017, **TailorDev Commons** is the charity part of [TailorDev](https://tailordev.fr/), dedicated to **knowledge sharing** and the **promotion of the Open Science initiative**. Those two major aspects are tackled by organising [workshops](/software-carpentry/past-workshops.md) around the digital researcher's toolbox (with different introductions to versioning systems, programming languages, etc.) and [giving talks](/conferences/past-talks.md) in research entities. If you are interested, please contact us: [commons@tailordev.fr](mailto:commons@tailordev.fr).
 
