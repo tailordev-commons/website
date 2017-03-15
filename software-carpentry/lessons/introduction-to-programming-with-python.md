@@ -8,6 +8,12 @@ On this page, you will find:
 
 <!-- toc -->
 
+## Python 101
+
+This lesson is an introduction to programming and the Python programming language. **This lesson targets complete beginners**. We start by typing a few lines of code in the Python shell and then use the **Jupyter Notebook**, an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
+
+You can download the Jupyter Notebook for this lesson: .
+
 ## Instructor notes
 
 {% hint style='working' %}
