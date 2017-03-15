@@ -4,7 +4,11 @@
 
 **Day 1**
 
-The UNIX Shell and Git (cf. our [UNIX shell](/software-carpentry/lessons/the-unix-shell.md) and [Version Control with Git](/software-carpentry/lessons/version-control-with-git.md) pages)
+The UNIX Shell and Git
+
+Lessons used during this session:
+- [UNIX shell](/software-carpentry/lessons/the-unix-shell.md)
+- [Version Control with Git](/software-carpentry/lessons/version-control-with-git.md)
 
 **Day 1 / Evening**
 
@@ -13,6 +17,9 @@ Social event
 **Day 2**
 
 Python \o/
+
+Lessons used during this session:
+- [Introduction to programming with Python](/software-carpentry/lessons/introduction-to-programming-with-python.md)
 
 ## Links
 
