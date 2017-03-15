@@ -29,15 +29,17 @@ The Jupyter Notebook (formerly known as the IPython Notebook) is an interactive 
 There is a public demo at: http://try.jupyter.org/. Yet, it is not always up and you should not use it during a workshop. It is better to setup a dedicated Jupyter instance.
 {% endhint %}
 
-When you open the Jupyter Notebook, you get redirect to your own workspace, that is a virtual filesystem where you can upload your notebooks, create files, and organize them as you wish. Each user gets its own workspace:
+When you open the Jupyter Notebook, you get redirect to your own **workspace**, that is a virtual filesystem where you can upload your notebooks, create files, and organize them as you wish. Each user gets its own workspace to avoid collisions:
 
 ![](/software-carpentry/assets/tryjupyter.png)
+
+### Uploading a notebook
 
 You can upload the notebooks we provide by clicking on "Upload" on the right, which opens a file explorer. Select the notebook you want to upload:
 
 ![](/software-carpentry/assets/jupyter_upload.png)
 
-Confirm the file upload by clicking the blue "Upload" button again:
+Confirm the file upload by clicking the blue "Upload" button again. The Jupyter Notebook gives you the ability to rename the file into your workspace here, but it is optional:
 
 ![](/software-carpentry/assets/jupyter_upload_confirm.png)
 
@@ -45,11 +47,9 @@ Once uploaded, you should see the uploaded notebook into your workspace:
 
 ![](/software-carpentry/assets/jupyter_upload_done.png)
 
-You can open this notebook by clicking on it. For instance, the screenshot is what you should see by opening the [Python 101](#python-101) notebook we provide:
+You can open this notebook by clicking on it. For instance, the screenshot below is what you should see by opening the [Python 101](#python-101) notebook we provide:
 
 ![](/software-carpentry/assets/jupyter_python_101.png)
-
-
 
 ## Instructor notes
 
