@@ -16,7 +16,7 @@ You can download the Jupyter Notebook for this lesson: [python-101.ipynb](/softw
 
 ## Python 102
 
-This lesson aims at plotting figures with [Matplotlib](http://matplotlib.org/) and using [NumPy](http://www.numpy.org/), the fundamental package for scientific computing with Python. This lesson has been created by [Björn Grüning](https://twitter.com/bjoerngruening).
+This lesson aims at plotting figures with [Matplotlib](http://matplotlib.org/) and using [NumPy](http://www.numpy.org/), the fundamental package for scientific computing with Python. This lesson has been created by [Björn Grüning](https://twitter.com/bjoerngruening). Now that you know the basics of programming with Python, let's have some fun with nice charts!
 
 You can download the Jupyter Notebook for this lesson: [python-102.ipynb](/software-carpentry/data/python-102.ipynb).
 
