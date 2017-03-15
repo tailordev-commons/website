@@ -63,7 +63,7 @@ You can **add new cells** at the end of a notebook by clicking the **"+" button*
 
 ![](/software-carpentry/assets/jupyter_code.png)
 
-By default, the type of cell is "code" but you can change it to "Markdown" if you intend to write notes in plain text. You can find the type of cell by looking at the dropdown, which also lets you change the type of the current cell:
+By default, the type of cell is "code" but you can change it to "Markdown" if you intend to write notes in plain text. You can find the **type of the current cell** by looking at the dropdown, which also lets you change its type:
 
 ![](/software-carpentry/assets/jupyter_markdown.png)
 
