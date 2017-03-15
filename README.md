@@ -5,3 +5,7 @@ Since January 2017, **TailorDev Commons** is the charity part of [TailorDev](htt
 We are committed to performing just like if it would have been a paid contract: same energy, same motivation and same "professionalism"!
 
 For more information about our motivations behind this initiative, you can read the announcement blog post on the TailorDev website: https://tailordev.fr/blog/2017/02/15/tailordev-commons/.
+
+---
+
+The content on this website is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license. The code provided (if not specifically indicated) is released by [TailorDev](https://tailordev.fr) under a [MIT](https://en.wikipedia.org/wiki/MIT_License) license.
