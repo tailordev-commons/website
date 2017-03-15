@@ -10,6 +10,6 @@ In this section, you will find many information related to the Software Carpentr
 
 Each lesson should contain a _Instructor notes_ section, derived from the Software Carpentry lessons, and which is mainly used by the instructors during a workshop. There are a few keywords to identify specific parts of these notes:
 
-- Action: something the instructor has to do
-- Question: a question worth asking the attendees
-- Exercise ideas: exercises for the attendees
+- **Action:** something the instructor has to do
+- **Question:** a question worth asking the attendees
+- **Exercise ideas:** exercises for the attendees
