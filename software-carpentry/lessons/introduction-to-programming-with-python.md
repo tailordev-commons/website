@@ -51,6 +51,10 @@ You can open this notebook by clicking on it. For instance, the screenshot below
 
 ![](/software-carpentry/assets/jupyter_python_101.png)
 
+### Playing with a notebook
+
+
+
 ## Instructor notes
 
 {% hint style='working' %}
