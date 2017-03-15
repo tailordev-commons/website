@@ -69,7 +69,7 @@ True
 **Exercise ideas:**
 
 - Compute the area of a circle of 10 cm diameter using two variables `Pi` and `D` (the diameter)
-- Generate a 100 nucleotides long poly-A sequence without typing the `A` key multiple times.
+- Generate a 100 nucleotides long poly-A sequence without typing the `A` key multiple times
 
 ### Working with lists
 
