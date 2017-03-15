@@ -1,7 +1,8 @@
 {
     "plugins": [
         "hints",
-        "advanced-emoji"
+        "advanced-emoji",
+        "simple-page-toc"
     ],
     "pluginsConfig": {
         "hints": {
