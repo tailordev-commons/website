@@ -55,7 +55,9 @@ You can open this notebook by clicking on it. For instance, the screenshot below
 
 So far, you have uploaded and opened a notebook. Now, you probably want to use it. When you open a notebook, you get an editor _à la_ Microsoft Word or Google Doc (well, with the exception that Jupyter is more powerful as you can execute code and it is Open Source).
 
-A notebook contains **cells**. Each cell contains either **code** or **text** (written in a lightweight markup language called [Markdown](https://en.wikipedia.org/wiki/Markdown)). In the screenshot below, the very first cell of our Python 101 notebook contains a "text cell" and the second cell contains some Python code:
+A notebook is usually configured for a specific programming language. If you use the Python notebooks we provide, then the configured programming language is set to `Python 3` (this information is displayed on the top right corner). If you start a new notebook, Jupyter will ask you which programming language you intend to use.
+
+A notebook contains a set of **cells**. Each cell contains either **code** or **text** (written in a lightweight markup language called [Markdown](https://en.wikipedia.org/wiki/Markdown)). In the screenshot below, the very first cell of our Python 101 notebook contains a "text cell" and the second cell contains some Python code:
 
 ![](/software-carpentry/assets/jupyter_notebook_cells.png)
 
@@ -66,6 +68,8 @@ You can **add new cells** at the end of a notebook by clicking the **"+" button*
 By default, the type of cell is "code" but you can change it to "Markdown" if you intend to write notes in plain text. You can find the **type of the current cell** by looking at the dropdown, which also lets you change its type:
 
 ![](/software-carpentry/assets/jupyter_markdown.png)
+
+That's it!
 
 ## Instructor notes
 
