@@ -1,5 +1,8 @@
 {
-    "plugins": ["hints"],
+    "plugins": [
+        "hints",
+        "advanced-emoji",
+    ],
     "pluginsConfig": {
         "hints": {
             "working": "fa fa-info-circle"
