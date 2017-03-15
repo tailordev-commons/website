@@ -288,7 +288,7 @@ Isolate repetitive tasks in fonctions:
 'TACG'
 ```
 
-## Variables scope
+### Variables scope
 
 ```python
 >>> a = 10
