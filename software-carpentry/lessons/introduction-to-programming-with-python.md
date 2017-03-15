@@ -53,7 +53,19 @@ You can open this notebook by clicking on it. For instance, the screenshot below
 
 ### Playing with a notebook
 
+So far, you have uploaded and opened a notebook. Now, you probably want to use it. When you open a notebook, you get an editor _à la_ Microsoft Word or Google Doc (well, with the exception that Jupyter is more powerful as you can execute code and it is Open Source).
 
+A notebook contains **cells**. Each cell contains either **code** or **text** (written in a lightweight markup language called [Markdown](https://en.wikipedia.org/wiki/Markdown)). In the screenshot below, the very first cell of our Python 101 notebook contains a "text cell" and the second cell contains some Python code:
+
+![](/software-carpentry/assets/jupyter_notebook_cells.png)
+
+You can add new cells at the end of a notebook by clicking the "+" button in the second menu bar. To render the text you wrote in a "text cell" or execute the code in a "code cell", you have to run the cell by clicking on the "run" symbol (alternatively, you can use the keyboard shortcut `alt + ENTER`):
+
+![](/software-carpentry/assets/jupyter_code.png)
+
+By default, the type of cell is "code" but you can change it to "Markdown" if you intend to write notes in plain text. You can find the type of cell by looking at the dropdown, which also lets you change the type of the current cell:
+
+![](/software-carpentry/assets/jupyter_markdown.png)
 
 ## Instructor notes
 
