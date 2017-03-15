@@ -4,6 +4,10 @@
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/shell-novice/.
 {% endhint %}
 
+On this page, you will find:
+
+<!-- toc -->
+
 ## Introduction
 
 ### UNIX?
