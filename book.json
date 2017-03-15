@@ -6,7 +6,7 @@
     ],
     "pluginsConfig": {
         "hints": {
-            "working": "fa fa-sticky-note"
+            "working": "fa fa-comments-o"
         }
     }
 }
