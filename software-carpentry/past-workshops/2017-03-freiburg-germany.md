@@ -6,7 +6,7 @@
 
 The UNIX Shell and Git
 
-Lessons used during this session:
+Lessons covered during this session:
 - [UNIX shell](/software-carpentry/lessons/the-unix-shell.md)
 - [Version Control with Git](/software-carpentry/lessons/version-control-with-git.md)
 
@@ -18,7 +18,7 @@ Social event
 
 Python \o/
 
-Lessons used during this session:
+Lessons covered during this session:
 - [Introduction to programming with Python](/software-carpentry/lessons/introduction-to-programming-with-python.md)
 
 ## Links
