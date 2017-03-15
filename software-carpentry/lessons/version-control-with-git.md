@@ -4,6 +4,8 @@
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/git-novice/.
 {% endhint %}
 
+<!-- toc -->
+
 ## Instructor notes
 
 {% hint style='working' %}
