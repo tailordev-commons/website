@@ -4,3 +4,4 @@ In this section, you will find many information related to the Software Carpentr
 
 * [The UNIX shell](/software-carpentry/lessons/the-unix-shell.md)
 * [Version Control with Git](/software-carpentry/lessons/version-control-with-git.md)
+* [Introduction to programming with Python](/software-carpentry/lessons/introduction-to-programming-with-python.md)
