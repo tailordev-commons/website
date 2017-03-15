@@ -7,6 +7,10 @@ You can find the Software Carpentry lesson at: https://swcarpentry.github.io/pyt
 
 ## Instructor notes
 
+{% hint style='working' %}
+These notes are mainly written for the instructors. Yet, they contain most (if not all) lines of code and important points taught during a workshop, which may be interesting if you want to remember how much you learnt during a workshop.
+{% endhint %}
+
 ### :snake: in the shell
 
 ```
@@ -18,9 +22,7 @@ $ python3
 * Python is an interpreted language
 * Run it from the shell
 
----
-
-## variables
+### Variables
 
 ```python
 >>> x = 2  # integer
@@ -35,18 +37,14 @@ True
 >>> coordinates = {'x': 0.4, 'y': 1.2, 'z': 0.3}  # dict
 ```
 
----
-
-## naming convention
+### Naming conventions
 
 * Use `[A-Z]`, `[a-z]`, `[0-9]` & `_`
 * Use snake case: `is_dna`
 * :warning: a variable name with cannot start with a number
 * :warning: you cannot use python keywords as names (e.g. `list`, `import`, etc.)
 
----
-
-## Operations on variables
+### Operations on variables
 
 ```python
 >>> a = 4
@@ -65,15 +63,10 @@ True
 'atgcgcgcgcgc'
 ```
 
----
+**Exercise ideas:**
 
-## Exercise 1.1
-
-> Compute the area of a circle of 10 cm diameter using two variables `Pi` and `D` (the diameter)
-
-## Exercise 1.2
-
-> Generate a 100 nucleotides long poly-A sequence without typing the `A` key multiple times.
+- Compute the area of a circle of 10 cm diameter using two variables `Pi` and `D` (the diameter)
+- Generate a 100 nucleotides long poly-A sequence without typing the `A` key multiple times.
 
 ---
 
