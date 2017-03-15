@@ -59,7 +59,7 @@ A notebook contains **cells**. Each cell contains either **code** or **text** (w
 
 ![](/software-carpentry/assets/jupyter_notebook_cells.png)
 
-You can add new cells at the end of a notebook by clicking the "+" button in the second menu bar. To render the text you wrote in a "text cell" or execute the code in a "code cell", you have to run the cell by clicking on the "run" symbol (alternatively, you can use the keyboard shortcut `alt + ENTER`):
+You can **add new cells** at the end of a notebook by clicking the **"+" button** in the second menu bar. To render the text you wrote in a "text cell" or execute the code in a "code cell", you have to **run the cell** by clicking on the **"play" symbol** (alternatively, you can use the keyboard shortcut `alt + ENTER`):
 
 ![](/software-carpentry/assets/jupyter_code.png)
 
