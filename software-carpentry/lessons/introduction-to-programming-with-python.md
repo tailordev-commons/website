@@ -68,9 +68,7 @@ True
 - Compute the area of a circle of 10 cm diameter using two variables `Pi` and `D` (the diameter)
 - Generate a 100 nucleotides long poly-A sequence without typing the `A` key multiple times.
 
----
-
-## Working with lists
+### Working with lists
 
 ```python
 >>> peptide = ['PRO', 'GLY', 'ALA']
@@ -89,9 +87,7 @@ True
 ['PRO', 'GLY', 'ALA']
 ```
 
----
-
-## More on lists
+### More on lists
 
 Lists can be nested!
 
@@ -107,10 +103,7 @@ Lists can be nested!
 9.1
 ```
 
----
-
-## Loops
-:musical_note: _I did it again_ :musical_note: 
+### Loops
 
 ```
 >>> peptide = ['PRO', 'GLY', 'ALA', 'ARG', 'ASN']
@@ -124,9 +117,7 @@ ARG
 ASN
 ```
 
---- 
-
-## Comparison operators
+### Comparison operators
 
 ```python
 >>> a = 5
@@ -144,9 +135,7 @@ False
 True
 ```
 
----
-
-## `while` loops
+### `while` loops
 
 ```python
 >>> i = 1
@@ -164,9 +153,7 @@ True
 ^^^^^^^^^
 ```
 
----
-
-## Control flow statements (1)
+### Control flow statements (1)
 
 ```python
 >>> sequence = 'atgc'
@@ -186,9 +173,7 @@ Sequence match
 ...    print('Sequence is not a Poly-A')
 ```
 
---- 
-
-## Control flow statements (2)
+### Control flow statements (2)
 
 ```python
 >>> sequence = 'atgc'
@@ -205,21 +190,15 @@ No A or T found
 No A or T found
 ```
 
---- 
+**Exercise ideas:**
 
-## Exercise 2.1
-
-> Given the following sequence, calculate the ratio of each nucleotide type it contains.
+- Given the following sequence, calculate the ratio of each nucleotide type it contains:
 
 ```python
 seq = 'ATGCTCGCGGCGCTAGCTACTAGCTAGCA'
 ```
 
---- 
-
-## Exercise 2.2
-
-> Given these crambine (alpha carbons) 10-first coordinates, calculate the peptide barycenter (mean coordinates)
+- Given these crambine (alpha carbons) 10-first coordinates, calculate the peptide barycenter (mean coordinates):
 
 ```python
 ca_trace = [  
@@ -237,9 +216,7 @@ ca_trace = [
 ]
 ```
 
----
-
-## Working with files
+### Working with files
 
 ```python
 >>> f = open('./foo.fasta')
@@ -258,16 +235,11 @@ ATGCTCGCGGCGCTAGCTACTAGCTAGCA
 ['>foo\n', 'ATGCTCGCGGCGCTAGCTACTAGCTAGCA\n']
 ```
 
----
+**Exercise ideas:**
 
-## Exercise 3.1
+- Download the crambine sequence in **fasta format** from the [PDB](http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=1CRN). Save this file in your working directory and store the amino-acids sequence in a `seq` variable.
 
-> Download the crambine sequence in **fasta format** from the [PDB](http://www.rcsb.org/pdb/download/downloadFile.do?fileFormat=FASTA&compression=NO&structureId=1CRN).
-> Save this file in your working directory and store the amino-acids sequence in a `seq` variable.
-
----
-
-## Using modules
+### Using modules
 
 ```python
 >>> import math
@@ -285,17 +257,13 @@ b'>1CRN:A|PDBID|CHAIN|SEQUENCE\n'
 b'TTCCPSIVARSNFNVCRLPGTPEAICATYTGCIIIPGATCPGDYAN\n'
 ```
 
----
+**Exercise ideas:**
 
-## Exercise 4.1
+- Re-implement your solution from the exercise 3.1 using the `urllib` module to download a fasta sequence from the PDB.
 
-> Re-implement your solution from the exercise 3.1 using the `urllib` module to download a fasta sequence from the PDB.
+### Functions
 
----
-
-## Functions
-
-Isolate repetitive tasks in fonctions
+Isolate repetitive tasks in fonctions:
 
 ```python
 >>> def get_dna_complement(sequence):
@@ -316,8 +284,6 @@ Isolate repetitive tasks in fonctions
 >>> complement
 'TACG'
 ```
-
----
 
 ## Variables scope
 
