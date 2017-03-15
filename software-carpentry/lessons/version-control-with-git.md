@@ -4,10 +4,6 @@
 You can find the Software Carpentry lesson at: https://swcarpentry.github.io/git-novice/.
 {% endhint %}
 
-## Try Git
-
-https://try.github.io is a great way to learn Git and GitHub. We usually use it as a quick "test" on the second day of a 2-day workshop. It does not replace the Software Carpentry lesson.
-
 ## Instructor notes
 
 {% hint style='working' %}
@@ -244,3 +240,10 @@ Branches to the rescue!
 8. merge PR
 9. retrieve branch
 10. delete branch
+
+
+## Try Git
+
+![](/software-carpentry/assets/trygit.png)
+
+https://try.github.io is a great way to learn Git and GitHub. We usually use it as a quick "test" on the second day of a 2-day workshop. It does not replace the Software Carpentry lesson.
