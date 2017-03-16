@@ -1,4 +1,4 @@
-# 2017-03 - Freiburg, Germany
+# 2017-03 — Freiburg, Germany
 
 On this page, you will find:
 
