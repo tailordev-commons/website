@@ -31,14 +31,19 @@ Lessons covered during this session:
 
 Red/Green comments (post-its) results: https://gist.github.com/willdurand/af753d5d84064ce3cac1e1a64d559f2a
 
+<br>
 ![](/software-carpentry/past-workshops/images/scw_freiburg_cloud.png)
 
 You can download the [Jupyter Notebook to reproduce this image](https://gist.github.com/willdurand/90681cbde746f9bd70e683f21eb3667f).
 
 ## Co-organized with...
 
-[![](/software-carpentry/past-workshops/images/Logo_Uni_Freiburg-300.png)](https://www.uni-freiburg.de/)
-[![](/software-carpentry/past-workshops/images/deNBI_Logo_rgb-300.png)](https://www.denbi.de/)
-
-[![](/software-carpentry/past-workshops/images/freiburg_galaxy_team-300.png)](http://www.bioinf.uni-freiburg.de/Galaxy/index.html)
-[![](/software-carpentry/past-workshops/images/Backofen.jpg)](http://www.bioinf.uni-freiburg.de/)
+<p align="center">
+<a href="https://www.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Logo_Uni_Freiburg-300.png" width="150px"></a>
+<br>
+<a href="https://www.denbi.de/"><img src="/software-carpentry/past-workshops/images/deNBI_Logo_rgb-300.png" width="150px"></a>
+<br>
+<a href="http://www.bioinf.uni-freiburg.de/Galaxy/index.html"><img src="/software-carpentry/past-workshops/images/freiburg_galaxy_team-300.png" width="150px"></a>
+<br>
+<a href="http://www.bioinf.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Backofen.jpg" width="150px"></a>
+</p>
