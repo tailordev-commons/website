@@ -38,7 +38,7 @@ Red/Green comments (post-its) results: https://gist.github.com/willdurand/af753d
 <br>
 ![](/software-carpentry/past-workshops/images/scw_freiburg_cloud.png)
 
-You can download the [Jupyter Notebook to reproduce this image](https://gist.github.com/willdurand/90681cbde746f9bd70e683f21eb3667f).
+You can download the [Jupyter Notebook to reproduce this figure](https://gist.github.com/willdurand/90681cbde746f9bd70e683f21eb3667f) :wink:.
 
 ## Co-organizers
 
