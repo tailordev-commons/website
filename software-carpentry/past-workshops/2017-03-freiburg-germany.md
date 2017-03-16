@@ -33,7 +33,7 @@ Lessons covered during this session:
 
 ## Feedback
 
-Red/Green comments (post-its) results: https://gist.github.com/willdurand/af753d5d84064ce3cac1e1a64d559f2a
+Red/Green comments (post-its) results: https://gist.github.com/willdurand/af753d5d84064ce3cac1e1a64d559f2a.
 
 <br>
 ![](/software-carpentry/past-workshops/images/scw_freiburg_cloud.png)
