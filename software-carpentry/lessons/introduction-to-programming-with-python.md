@@ -12,13 +12,13 @@ On this page, you will find:
 
 This lesson is an introduction to programming and the Python programming language. **This lesson targets complete beginners**. We start by typing a few lines of code in the Python shell and then use the **Jupyter Notebook**, an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text.
 
-You can download the Jupyter Notebook for this lesson: [python-101.ipynb](/software-carpentry/data/python-101.ipynb). GitHub allows to preview its content if you just want to know what is in this notebook: [click here to see this notebook on GitHub](https://github.com/TailorDev/commons/blob/master/software-carpentry/data/python-101.ipynb).
+You can download the Jupyter Notebook for this lesson: [python-101.ipynb](/software-carpentry/data/python-101.ipynb). GitHub allows to preview its content if you just want to know what is in this notebook: [click here to see this notebook on GitHub](https://github.com/tailordev-commons/website/blob/master/software-carpentry/data/python-101.ipynb).
 
 ## Python 102
 
 This lesson aims at plotting figures with [Matplotlib](http://matplotlib.org/) and using [NumPy](http://www.numpy.org/), the fundamental package for scientific computing with Python. This lesson has been created by [Björn Grüning](https://twitter.com/bjoerngruening). Now that you know the basics of programming with Python, let's have some fun with nice charts!
 
-You can download the Jupyter Notebook for this lesson: [python-102.ipynb](/software-carpentry/data/python-102.ipynb). GitHub allows to preview its content if you just want to know what is in this notebook: [click here to see this notebook on GitHub](https://github.com/TailorDev/commons/blob/master/software-carpentry/data/python-102.ipynb).
+You can download the Jupyter Notebook for this lesson: [python-102.ipynb](/software-carpentry/data/python-102.ipynb). GitHub allows to preview its content if you just want to know what is in this notebook: [click here to see this notebook on GitHub](https://github.com/tailordev-commons/website/blob/master/software-carpentry/data/python-102.ipynb).
 
 ## Jupyter Notebook
 
