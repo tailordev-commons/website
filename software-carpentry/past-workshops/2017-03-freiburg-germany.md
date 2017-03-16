@@ -1,5 +1,9 @@
 # 2017-03 - Freiburg, Germany
 
+On this page, you will find:
+
+<!-- toc -->
+
 ## Agenda
 
 **Day 1**
