@@ -7,11 +7,11 @@
     ],
     "pluginsConfig": {
         "hints": {
-            "working": "fa fa-comments-o",
-            "edit-link": {
-                "base": "https://github.com/tailordev-commons/website/edit/master",
-                "label": "Edit This Page"
-            }
+            "working": "fa fa-comments-o"
+        },        
+        "edit-link": {
+            "base": "https://github.com/tailordev-commons/website/edit/master",
+            "label": "Edit This Page"
         }
     }
 }
