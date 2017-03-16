@@ -45,9 +45,12 @@ You can download the [Jupyter Notebook to reproduce this image](https://gist.git
 <p align="center">
 <a href="https://www.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Logo_Uni_Freiburg-300.png" width="150px"></a>
 <br>
+<br>
 <a href="https://www.denbi.de/"><img src="/software-carpentry/past-workshops/images/deNBI_Logo_rgb-300.png" width="150px"></a>
+<br>
 <br>
 <a href="http://www.bioinf.uni-freiburg.de/Galaxy/index.html"><img src="/software-carpentry/past-workshops/images/freiburg_galaxy_team-300.png" width="150px"></a>
 <br>
-<a href="http://www.bioinf.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Backofen.jpg" width="150px"></a>
+<br>
+<a href="http://www.bioinf.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Backofen.jpg" width="100px"></a>
 </p>
