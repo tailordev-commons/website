@@ -40,7 +40,7 @@ Red/Green comments (post-its) results: https://gist.github.com/willdurand/af753d
 
 You can download the [Jupyter Notebook to reproduce this image](https://gist.github.com/willdurand/90681cbde746f9bd70e683f21eb3667f).
 
-## Co-organized with...
+## Co-organized with
 
 <p align="center">
 <a href="https://www.uni-freiburg.de/"><img src="/software-carpentry/past-workshops/images/Logo_Uni_Freiburg-300.png" width="150px"></a>
