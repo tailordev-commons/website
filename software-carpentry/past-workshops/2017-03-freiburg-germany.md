@@ -26,3 +26,13 @@ Lessons covered during this session:
 - Eventbrite page: http://sc-workshop-freiburg-1.eventbrite.fr
 - Website: https://bebatut-edu.github.io/2017-03-09-freiburg/
 - Shared pad (read only / will be deleted on August, 2017): https://semestriel.framapad.org/p/r.1e47e748b05e53bee7b61f25c25df46a
+
+## Co-organized with:
+
+[![](/software-carpentry/past-workshops/images/Logo_Uni_Freiburg-300.png)](https://www.uni-freiburg.de/)
+
+[![](/software-carpentry/past-workshops/images/freiburg_galaxy_team-300.png)](http://www.bioinf.uni-freiburg.de/Galaxy/index.html)
+
+[![](/software-carpentry/past-workshops/images/deNBI_Logo_rgb-300.png)](https://www.denbi.de/)
+
+[![](/software-carpentry/past-workshops/images/Backofen.jpg)](http://www.bioinf.uni-freiburg.de/)
