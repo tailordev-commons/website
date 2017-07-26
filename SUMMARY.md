@@ -13,6 +13,10 @@
 * [Past workshops](software-carpentry/past-workshops.md)
   * [2017-03 – Freiburg, Germany](software-carpentry/past-workshops/2017-03-freiburg-germany.md)
 
+## Workshops
+
+* [JDEV 2017](workshops/jdev-2017.md)
+
 ## Conferences
 
 * [Past talks](conferences/past-talks.md)
