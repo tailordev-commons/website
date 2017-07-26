@@ -16,7 +16,7 @@
 ## Workshops
 
 * [JDEV 2017](workshops/jdev-2017.md)
-  * [ci4py](workshops/jdev-2017/ci4py.md)
+  * [Continuous Integration for Python \(ci4py\)](workshops/jdev-2017/ci4py.md)
 
 ## Conferences
 
