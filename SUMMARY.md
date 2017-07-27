@@ -16,8 +16,6 @@
 ## Workshops
 
 * [JDEV 2017](workshops/jdev-2017.md)
-  * [Introduction to Django](workshops/jdev-2017/introduction-to-django.md)
-  * [Continuous Integration for Python \(ci4py\)](workshops/jdev-2017/ci4py.md)
 
 ## Conferences
 
